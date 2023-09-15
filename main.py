@@ -12,7 +12,7 @@ soup = BeautifulSoup(r.text, 'lxml')
 
 data = []
 
-for p in range(1, 2):
+for p in range(1, 27):
     print(p)
     
     url = f'https://glavsnab.com/catalog/elektrotekhnicheskie_izdeliya/?count=30&PAGEN_1={p}&SIZEN_1=30'
